@@ -17,7 +17,6 @@ func Raid1a(rows int, columns int) {
 			}
 
 		}
-		z01.PrintRune(10)
-
+		z01.PrintRune('\n')
 	}
 }
