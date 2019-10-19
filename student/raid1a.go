@@ -1,10 +1,10 @@
-package piscine
+package student
 
 import "github.com/01-edu/z01"
 
 func Raid1a(rows int, columns int) {
 	for i := 1; i <= columns; i++ {
-		for j := 1; j <= rows; j++ { //
+		for j := 1; j <= rows; j++ {
 			if (i == 1 && j == rows) || (i == 1 && j == 1) ||
 				(i == columns && j == 1) || (i == columns && j == rows) {
 				z01.PrintRune(111)
