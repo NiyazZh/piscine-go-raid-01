@@ -1,4 +1,4 @@
-package main
+package mai1n1
 
 import (
 	student "./student"
