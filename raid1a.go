@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-
-	"github.com/01-edu/z01"
-)
+import "github.com/01-edu/z01"
 
 func Raid1a(rows int, columns int) {
 	for i := 1; i <= columns; i++ {
@@ -21,7 +17,7 @@ func Raid1a(rows int, columns int) {
 			}
 
 		}
-		fmt.Println()
+		z01.PrintRune(10)
 
 	}
 }
