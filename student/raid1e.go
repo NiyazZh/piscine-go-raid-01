@@ -2,13 +2,13 @@ package student
 
 import "github.com/01-edu/z01"
 
-func Raid1a(rows int, columns int) {
-	a := 'o'
-	b := 'o'
-	c := 'o'
-	d := 'o'
-	wallg := '-'
-	wallv := '|'
+func Raid1e(rows int, columns int) {
+	a := 'A'
+	b := 'C'
+	c := 'C'
+	d := 'A'
+	wallg := 'B'
+	wallv := 'B'
 	if rows > 0 && columns > 0 {
 		for i := 1; i <= columns; i++ {
 			for j := 1; j <= rows; j++ {
